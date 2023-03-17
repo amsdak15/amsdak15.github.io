@@ -1,60 +1,198 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ameydakare.com</title>
-    <style>
-      html, body {
-        height: 100%;
-      }
-      body {
-        background-color: #fff;
-        background: radial-gradient(circle at center, #fff 0%, #f8f8f8 75%, #ebebeb 100%);
-        color: #222;
-        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-        font-size: 1rem;
-        line-height: 1.5;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      main {
-        padding: 1rem;
-        text-align: center;
-      }
-      h1 {
-        font-size: 2.5rem;
-        line-height: 1.1;
-        margin: 0;
-      }
-      @media screen and (max-width: 480px) {
-        h1 {
-          font-size: 1.5rem;
-        }
-      }
-      h1::after {
-        content: "";
-        background-color: #ffe800;
-        background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem);
-        display: block;
-        height: 0.5rem;
-        margin-top: 1rem;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-      p {
-        margin: 1rem 0 0 0;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>ameydakare.com</h1>
-      <p>The website is under construction.</p>
-    </main>
-  </body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Amey Dakare Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" type="image/x-icon" href="images/Logo.png" />
+	</head>
+
+	<body class="is-preload">
+		<!-- Header -->
+			<div id="header">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48">
+								<img src="images/profilepic.jpg" alt="profile_pic"/>
+							</span>
+							<p style="font-size:24px; font-family:verdana; text-align: center; color: #fff; font-weight: 600; margin-top: 10px;">Amey Dakare</p>  
+							<p style="font-size:16px; font-family:verdana; text-align: center; padding-top: 50px;">Postgraduate Student</p>							
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#aboutme" id="cv-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#cv" id="cv-link"><span class="icon far fa-file">CV</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/amey-dakare/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/amsdak15" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.instagram.com/chillynx_iamey/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.facebook.com/amey.dakare.15" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="mailto:ameydakare415@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+				</div>
+			</div>
+
+			<!-- Main -->
+				<div id="main">
+
+					<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+							<header>
+								<h2 class="alt">Hi! I'm <strong style="color:white; font-size:44px; font-weight: 900">Amey</strong>.</h2>
+								<p style="color:white; font-size:28px; margin-bottom:10px;">I'm a <strong>Computer Vision</strong>, <strong>Autonomous Driving</strong>,<br />
+								<strong>Robotics</strong> aspirant.</p>
+							</header>
+							<footer>
+								<a href="#aboutme" class="button scrolly" style="color:black; font-weight: 500; font-size:24px">Learn about what I do</a>
+							</footer>
+						</div>
+					</section>
+
+					<!-- About Me -->
+					<section id="aboutme" class="two">
+						<div class="container">
+							<header>
+								<h2 style="color:black; font-size:44px; margin-bottom:10px; font-family:verdana;">About Me</h2>
+							</header>
+							<!-- <a href="#" class="image featured"><img src="images/cover.jpg" alt="" /></a> -->
+							<p style="color:black;">	
+								I am an Indian national currently residing in Japan. I am pursuing my master's degree in the <a href="https://www.imis.tsukuba.ac.jp/" target="_blank" style="color:#FF0000";>Intelligent Mechanical Systems program</a> at the University of Tsukuba, while also working as a research assistant at the <a href="https://www.digiarc.aist.go.jp/team/msrt/" target="_blank" style="color:#FF0000";>Mobility Services Research Team</a> in the Digital Architecture Research Center of the <a href="https://www.aist.go.jp/" target="_blank" style="color:#FF0000";>National Institute of Advanced Industrial Science and Technology (AIST), Japan.</a>
+							</p>
+							<p style="color:black;">
+								I completed my bachelor's degree from the <a href="http://www.ok.sc.e.titech.ac.jp/" target="_blank" style="color:#FF0000";>Okutomi-Tanaka Lab</a> in the <a href="https://educ.titech.ac.jp/sc/eng/" target="_blank" style="color:#FF0000";>Department of Systems and Control Engineering</a> at the Tokyo Institute of Technology, under the guidance of Professor Masatoshi Okutomi. During my undergraduate studies, I collaborated with Olympus Corp on a research project focused on "CNN-Based Parts Classification for Camera Localization in Pipe Network". 
+							</p>
+							<p style="color:black;">		
+								My primary research interests include computer vision and autonomous driving. I am working on developing a monitoring support system for autonomous bus services, leveraging computer vision technology to ensure passenger safety. My studies have allowed me to acquire expertise in machine learning, information processing, and other essential tools in the field of intelligent mechanical systems.
+							</p>
+							<p style="color:black;">	
+								As I look to the future, I aim to enhance my skills and expertise in AI and data science to contribute to the advancement of these fields and support global teams using my multilingual abilities. My strong curiosity and love for learning new things drive me to continually adapt to rapidly evolving technologies, provide customer-oriented solutions, and tackle challenges to improve my problem-solving abilities and technical prowess as an engineer.
+							</p>
+							<p style="color:black;">	
+								In my leisure time, I enjoy photography and editing, though I am still an amateur in these areas. I am also actively exploring video making and cinematography to expand my creative skills. As a passionate follower of Cricket and Chess, I stay updated on the latest developments and events in these sports.
+							</p>
+						</div>
+					</section>
+	
+
+					<!-- Portfolio -->
+					<section id="portfolio" class="three">
+						<div class="container">
+							<header>
+								<h3 style="color:black; font-size:44px; margin-bottom:10px; font-family:verdana;">Portfolio</h3>
+							</header>
+							<p style="color:black; ">Here are some of the projects I've worked on:</p>
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a class="image fit"><img src="images/yt-recommendation.jpeg" alt="" width="150" height="300"/></a>
+										<header>
+											<a href="https://secure-depths-36519.herokuapp.com/" style="font-size:20px; font-weight: 800">Youtube Channel Video Recommendation</a>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a class="image fit"><img src="images/instagram_analysis.jpg" alt="" width="200" height="300" /></a>
+										<header>
+											<a href="https://github.com/amsdak15/instagram_hashtag_bot" style="font-size:20px; font-weight: 800">Instagram/TikTok Analytics Bot</a>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a class="image fit"><img src="images/wordle.png" alt="" width="200" height="300"/></a>
+										<header>
+											<a href="https://github.com/amsdak15/WordleSolver-Bot" style="font-size:20px; font-weight: 800">Automatic Wordle Solver</a>
+										</header>
+									</article>
+								</div>
+							</div>
+							</br></br>
+							<p>There are other projects that I've worked on in the past. Shall we dive deep in?</p>
+							<footer>
+								<a href="https://github.com/amsdak15" class="button scrolly" style="color:black; font-weight: 500; font-size:30px">See more of my recent work</a>
+							</footer>
+						</div>
+					</section>				
+
+				<!-- Resume -->
+					<section id="cv" class="four">
+						<div class="container">
+
+							<header>
+								<h2 style="color:black; font-size:44px; margin-bottom:10px; font-family:verdana;">Curriculum Vitae</h2>
+							</header>
+						
+							<div class="row">
+								<article class="item" style="margin-left:150px;">
+									<a><img src="images/eng_resume.png" alt="" width="400" height="500" /></a></br>
+									<button class="btn" style="background-color: #4CAF50; color: white; border: none; cursor: pointer; font-size: 20px; margin: 10px 0; padding: 12px 28px; text-align: center; text-decoration: none; display: inline-block;"><i class="fa fa-download"></i> <a href="images/Amey_Eng_Resume.pdf" style="color: white; text-decoration: none;">Download English Resume</a></button>
+								</article>
+								
+								<article class="item" style="margin-right:150px;">
+									<a><img src="images/jap_resume.png" alt="" width="400" height="500"/></a></br>
+									<button class="btn" style="background-color: #4CAF50; color: white; border: none; cursor: pointer; font-size: 20px; margin: 10px 0; padding: 12px 28px; text-align: center; text-decoration: none; display: inline-block;"><i class="fa fa-download"></i> <a href="images/Amey_Jap_Resume.pdf" style="color: white; text-decoration: none;">Download Japanese Resume</a></button>
+								</article>
+							</div>
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="five">
+						<div class="container">
+							<header>
+								<h2>Contact</h2>
+							</header>
+						
+							<p>Please feel free to contact me through social platforms for any inquiry.</p>
+						
+							<form action="https://formspree.io/f/mnqwdggo" method="POST">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="email" name="_replyto" placeholder="Your Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Type your message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+						</div>						
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; 2023. All Rights Reserved.</li>
+					</ul>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
 </html>

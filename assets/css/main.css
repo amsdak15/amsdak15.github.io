@@ -2209,6 +2209,8 @@ input, select, textarea {
 		margin: 1em 1em 1em 1em;
 		min-height: 48px;
 		cursor: default;
+		padding-top: 100px;
+		padding-right: 10px;
 	}
 
 		#logo h1 {
